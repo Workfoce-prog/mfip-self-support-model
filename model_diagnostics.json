@@ -1,0 +1,9 @@
+{
+  "holdout_cohort_year": 2024,
+  "train_rows": 17292,
+  "holdout_rows": 2878,
+  "interval_warning": "Conditional predictive intervals omit parameter uncertainty and are not official HSPM thresholds",
+  "earnings_holdout_mae": 1598.8878809399607,
+  "earnings_holdout_observed_mean": 1352.00054048292,
+  "earnings_holdout_expected_mean": 1269.0226369634463
+}
