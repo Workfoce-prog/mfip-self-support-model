@@ -1,0 +1,16 @@
+column,type,required,description
+adult_id,string,yes,Stable pseudonymous adult identifier
+service_area,string,yes,County tribe or service delivery area
+cohort_year,integer,yes,Baseline calendar year
+cohort_quarter,integer,yes,Baseline quarter 1 through 4
+age,number,yes,Adult age at baseline
+education_years,number,yes,Years of education at baseline
+two_adult,integer,yes,Two adult household indicator at baseline
+months_mfip,number,yes,Counted MFIP months at baseline
+unemployment_rate,number,yes,Local unemployment rate as proportion at baseline
+childcare_slots_per_100,number,yes,Local licensed child care capacity per 100 children at baseline
+ssi_success_3y,integer,yes,Official compatible three year binary SSI outcome
+sustained_exit_12m,integer,yes,No cash for 12 consecutive months by follow up
+employed_3y,integer,yes,Employed in three year follow up quarter
+earnings_3y,number,yes,Inflation adjusted quarterly earnings
+returned_cash_3y,integer,conditional,Return within three years after eligible exit; blank if no exit
